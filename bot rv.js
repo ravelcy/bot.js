@@ -102,4 +102,5 @@ client.on('messageCreate', message => {
         // Fitur Auto Responder
         for (const [trigger, response] of Object.entries(autoResponder)) {
             if (message.content.toLowerCase().includes(trigger)) {
-                const
+                const}
+        }
