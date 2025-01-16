@@ -9,8 +9,8 @@ const fs = require('fs');
 
 // Konfigurasi token dan API
 const BOT_TOKEN = 'YOUR_BOT_TOKEN';
-const REMOVE_BG_API = 'YOUR_REMOVE_BG_API_KEY';
-const OPENAI_API_KEY = 'YOUR_OPENAI_API_KEY';
+const REMOVE_BG_API = 'https://api.remove.bg/v1.0/removebg';
+const OPENAI_API_KEY = 'API_OPENAI';
 
 const client = new Client({
     intents: [
